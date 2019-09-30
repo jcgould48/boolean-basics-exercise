@@ -1,23 +1,23 @@
 let iGetTheJoke = false;
 let havingFun = true;
 let learning = true;
-let killingIt = (havingFun && learning) true;
+let killingIt = (havingFun && learning);
 
 
 function returnFalse() {
-
+return false;
 }
 
 function isOpposite(condition) {
-
+return !condition; 
 }
 
 function both(condition1, condition2) {
-
+return (condition1 && condition2); 
 }
 
 function either(condition1, condition2) {
-
+return
 }
 
 function neither(condition1, condition2) {
