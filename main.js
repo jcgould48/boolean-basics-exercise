@@ -1,7 +1,7 @@
-let iGetTheJoke;
-let havingFun;
-let learning;
-let killingIt;
+let iGetTheJoke = false;
+let havingFun = true;
+let learning = true;
+let killingIt = (havingFun && learning) true;
 
 
 function returnFalse() {
