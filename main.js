@@ -1,4 +1,4 @@
-let iGetTheJoke = false;
+let iGetTheJoke = true;
 let havingFun = true;
 let learning = true;
 let killingIt = (havingFun && learning);
@@ -17,15 +17,20 @@ return (condition1 && condition2);
 }
 
 function either(condition1, condition2) {
-return
+  // if (condition1 === true || condition2 === true) {
+  //   return true;
+  // }
+
+  return (condition1 || condition2) 
 }
 
-function neither(condition1, condition2) {
 
+function neither(condition1, condition2) {
+return !condition1 && !condition2
 }
 
 function itsComplicated(condition1, condition2, condition3) {
-
+  return  !condition1 || (condition2&&condition3);
 }
 
 
